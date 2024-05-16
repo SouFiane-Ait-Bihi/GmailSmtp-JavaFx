@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 mai 2024, 20:11:39
+    Author     : one
+*/
+.backgound{
+    
+    -fx-background-color : #240750;
+    border-color: 3px solid #FF8A00;
+}
+.text-field{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+.round-red {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+.custom-dashed-border {
+    -fx-border-color: blue ;
+    -fx-border-width: 2 ; 
+    -fx-border-style: segments(10, 15)  line-cap round ;
+}

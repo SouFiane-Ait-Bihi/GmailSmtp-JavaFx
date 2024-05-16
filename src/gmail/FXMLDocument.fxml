@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="1086.0" styleClass="backgound" stylesheets="@Stylecss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gmail.FXMLDocumentController">
+   <children>
+      <TextField fx:id="emailid" layoutX="477.0" layoutY="53.0" prefHeight="40.0" prefWidth="594.0" promptText="Email ID" styleClass="text-field">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+        <TextField fx:id="subject" layoutX="476.0" layoutY="242.0" prefHeight="58.0" prefWidth="594.0" promptText="SUB" styleClass="text-field">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+       <TextField fx:id="password" layoutX="476.0" layoutY="118.0" prefHeight="40.0" prefWidth="594.0" promptText="Password" styleClass="text-field">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+        <TextField fx:id="message" layoutX="476.0" layoutY="326.0" prefHeight="155.0" prefWidth="594.0" promptText="Message" styleClass="text-field">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+         <TextField fx:id="recieverid" layoutX="476.0" layoutY="179.0" prefHeight="40.0" prefWidth="594.0" promptText="Recipient ID" styleClass="text-field">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <Button layoutX="910.0" layoutY="493.0" onAction="#Hnakaynakhedma" prefHeight="56.0" prefWidth="162.0" styleClass="round-red" stylesheets="@Stylecss.css" text="Send">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font></Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="190.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/gmail_new_logo_icon_159149.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="207.0" layoutY="271.0" text="GmailSmtp" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
